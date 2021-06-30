@@ -23,8 +23,6 @@ httplib2==0.19.1
 idna==2.10
 itsdangerous==2.0.1
 Jinja2==3.0.1
-json==2.0.9
-keras_tuner==1.03
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
 matplotlib==3.3.4
