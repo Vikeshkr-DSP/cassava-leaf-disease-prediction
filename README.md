@@ -1,0 +1,7 @@
+# Cassava Leaf Disease Prediction
+## Introduction
+As Cassava is considered as the second largest provider of carbohydrates in Africa, 80% of household farms in Africa grow this as it can also withstand harah condition. But viral diseases are major sources of poor yields. Existing method of detecting diseases requires the help of government-funded agricultural expert to visually inspect and diagnose the plants. A plant can be diagnosed for any disease easily without the help of government and very early using Deep Learning. This problem is all about classifying Cassava leafs on the basis of disease to which the plant is infected. All you need to provide an image of target plant. Image of plant leaf will be classified to be one class out 5 classes (0 for  Cassava Bacterial Blight (CBB), 1 for Cassava Brown Streak Disease (CBSD), 2 for Cassava Green Mottle (CGM), 3 for Cassava Mosaic Disease (CMD) and 4 for Healthy).
+## DataSource
+Data includes a folder with images of infected and healthy leafs and a CSV file which includes file name and label of that image to which it belongs. This data is publically accessible on Kaggle. Data for model training consist of 21,367 labeled images which were collected during a regular survey in Uganda and labeled by experts  at the National Crops Resources Research Institute (NaCRRI) in collaboration with the AI lab at Makerere University, Kampala. Random Images of labelled images.
+
+## Model Training
