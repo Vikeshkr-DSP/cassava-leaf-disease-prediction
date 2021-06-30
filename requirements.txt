@@ -6,7 +6,6 @@ cffi==1.14.5
 chardet==4.0.0
 click==8.0.1
 colorama==0.4.4
-cv2=4.5.2
 Flask==2.0.1
 flatbuffers==1.12
 gast==0.4.0
