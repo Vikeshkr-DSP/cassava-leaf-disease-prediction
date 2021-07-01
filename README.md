@@ -11,3 +11,23 @@ Tensorflow/Keras has been used for training the model for classifying the images
 ![image](https://user-images.githubusercontent.com/66907101/124010752-da286b00-d9fc-11eb-8dff-f474bf19ffe1.png)
 
 Using above architecture with image augmentation and using EarlyStopping and  ReduceLROnPlateau Callbacks gives an accuracy of 0.8469 on validating the model on validation data. Hyperparameter Tuning has been tried using Keras-Tunner RandomSearch with 20 trials for 2 epoches which doesn't generates improved accuracy and thus our main model was used for deployment and creating the web app.
+## Web app
+A web app is created using flask and will be deployed soon on Azure (It's difficult to deploy deep learning model on Heroku due to it's size). You'll need to provide the image of leaf of targeted plant to classify. App appearance can be seen below.
+
+![image](https://user-images.githubusercontent.com/66907101/124067121-741d0180-da57-11eb-805d-9b2237653fc1.png)
+
+Now you need to submit the image.
+
+![image](https://user-images.githubusercontent.com/66907101/124067318-d70e9880-da57-11eb-9acc-1e7d822335b5.png)
+
+Select predict button and thw app will classify whether it is infected or a healthy plant.
+
+![image](https://user-images.githubusercontent.com/66907101/124068525-50a68680-da58-11eb-9c63-c0900f230147.png)
+
+The uploaded image is classified as infected. Similarly different images can be uploaded amd classified.
+
+## Technology used
+* Jupyter notebook (Python 3.8)
+* Spyter (Creating app.py)
+* VS code (Creating front end web page)
+* Github
