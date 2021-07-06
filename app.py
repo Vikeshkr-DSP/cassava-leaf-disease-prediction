@@ -15,7 +15,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
 app=Flask(__name__)
-model=load_model('cassava_leaf.h5')
+model=load_model('/home/cassava_leaf.h5')
 
 def model_predict(img_path,model):
     img=image.load_img(img_path,target_size=(420,420),color_mode='rgb')
