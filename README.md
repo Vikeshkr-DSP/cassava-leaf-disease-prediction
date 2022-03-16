@@ -28,6 +28,6 @@ The uploaded image is classified as infected. Similarly different images can be 
 
 ## Technology used
 * Jupyter notebook (Python 3.8)
-* Spyter (Creating app.py)
+* Spyder (Creating app.py)
 * VS code (Creating front end web page)
 * Azure and GitHub (model deployment and repositry)
